@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Nikko Brylle | BSIT Student</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="./assets/icons/favicon.ico" alt="NB" class="logo" />
+        <h1>NIKKO BRYLLE</h1>
+      </div>
+      <!-- Navbar -->
+      <nav>
+        <ul class="navigation">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+      </nav>
+    </header>
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <img
+        src="./assets/images/wfh.svg"
+        alt="nikko-brylle"
+        loading="lazy"
+        class="home-img"
+      />
+      <div class="bio animate__animated animate__shakeY">
+        <h2 class="bio-title">Hi, Im <span class="name">Nikko Brylle</span></h2>
+        <h4>
+          I'm an aspiring <span id="text-replace"></span
+          ><span id="typing-bar">|</span>
+        </h4>
+      </div>
+    </section>
+    <!-- More about -->
+    <div id="about">
+      <div class="container">
+        <section class="about">
+          <h2>About Me</h2>
+          <div class="abouts animate__animated animate__shakeX">
+            <p>
+              Hello, I'm Nikko Brylle Alturas, currently pursuing a
+              <a
+                href="https://en.wikipedia.org/wiki/Bachelor_of_Science_in_Information_Technology"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="form"
+                >Bachelor of Science in Information Technology</a
+              >. I'm passionate about technology, particularly in the realms of
+              <a
+                href="https://en.wikipedia.org/wiki/Web_development"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="form"
+                >web development</a
+              >
+              and
+              <a
+                href="https://en.wikipedia.org/wiki/Computer_security"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="form"
+                >cybersecurity</a
+              >
+            </p>
+
+            <p>
+              Though I'm still in college, I've already started exploring
+              website development. I've created several
+              <a href="#projects" class="form">simple websites</a>, honing my
+              skills and exploring different aspects of web development.
+            </p>
+            <p>
+              My coursework in
+              <a
+                href="https://en.wikipedia.org/wiki/Information_technology"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="form"
+                >Information Technology</a
+              >
+              has equipped me with foundational knowledge, and I'm eager to
+              delve deeper into web development and cybersecurity.
+            </p>
+
+            <p>
+              Outside of academics, I find joy in coding, particularly building
+              websites. I also enjoy playing sports like
+              <a
+                href="https://en.wikipedia.org/wiki/Tennis"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="form"
+                >Tennis</a
+              >
+              and
+              <a
+                href="https://en.wikipedia.org/wiki/Chess"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="form"
+                >Chess</a
+              >, which help me unwind and sharpen my strategic thinking.
+            </p>
+
+            <p>
+              My goal is to delve deeper into web development and cybersecurity.
+              I aim to learn more about these fields, gaining hands-on
+              experience and contributing to meaningful projects.
+            </p>
+            <p>
+              I'm eager to explore internships, courses, and opportunities that
+              will further my knowledge and skills in these domains.
+            </p>
+
+            <p>
+              Feel free to reach out to me via
+              <a href="#contact" class="form" style="font-weight: 700">HERE</a>.
+              Let's connect and explore opportunities together!
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Skills section -->
+    <div id="skills">
+      <div class="container">
+        <section class="skills">
+          <div class="container">
+            <h2 class="skill-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+              <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="./assets/icons/icons8-html-5.svg"
+                  alt="HTML"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./assets/icons/icons8-css3.svg"
+                  alt="CSS"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./assets/icons/icons8-javascript.svg"
+                  alt="JavaScript"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="./assets/icons/kalilinux.svg"
+                  alt="Kali Linux"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./assets/icons/metasploit-framework-logo.svg"
+                  alt="Metasploit"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./assets/icons/nmap-logo-64px.svg"
+                  alt="NMAP"
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Projects section -->
+    <div id="projects">
+      <div class="container">
+        <section class="projects">
+          <h2 class="projects-title">Some of my Recent Projects</h2>
+          <div class="projects-container animate__animated animate__shakeY">
+            <div class="project-container project-card">
+              <img
+                src="./assets/images/Landing-Page.png"
+                alt="netflic-clone"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">Landing Page</h3>
+              <a
+                href="https://nikodego.github.io/Landing-Page/"
+                target="_blank"
+                class="project-link"
+                >Check it Out</a
+              >
+            </div>
+            <div class="project-container project-card">
+              <img
+                src="./assets/images/One-Piece-Website.png"
+                alt="expense-tracker"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">One Piece Website</h3>
+              <a
+                href="https://nikodego.github.io/One-Piece/"
+                target="_blank"
+                class="project-link"
+                >Check it Out</a
+              >
+            </div>
+            <div class="project-container project-card">
+              <img
+                src="./assets/images/Profile-Card.png"
+                alt="greeny-earth"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">Profile Card</h3>
+              <a
+                href="https://nikodego.github.io/Profile-Card/"
+                target="_blank"
+                class="project-link"
+                >Check it Out</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Contact section -->
+    <div id="contact">
+      <div class="container">
+        <section class="contact">
+          <h2>Get In Touch With Me</h2>
+          <div class="contact-form-container animate__animated animate__pulse">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/xwkgewev" method="POST">
+                <div class="form-control">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Enter Your Name"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit-btn"
+                  class="submit-btn"
+                />
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="http://www.twitter.com/@niyko_bwayl" target="_blank"
+        ><img
+          src="./assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="http://www.instagram.com/niykoww" target="_blank"
+        ><img
+          src="./assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.facebook.com/niykoww" target="_blank"
+        ><img
+          src="./assets/icons/icons8-facebook.gif"
+          alt="Facebook"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="http://www.github.com/nikodego" target="_blank"
+        ><img
+          src="./assets/icons/icons8-github.gif"
+          alt="Github"
+          class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="./assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a
+          href="https://twitter.com/@niyko_bwayl"
+          target="_blank"
+          style="color: var(--secondary-color)"
+          >Nikko Brylle</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="script.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
